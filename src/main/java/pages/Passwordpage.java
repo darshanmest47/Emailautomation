@@ -36,7 +36,7 @@ public class Passwordpage {
 		wt = new WebDriverWait(driver,60);
 		wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='inline-block']")));
 		
-		passwd.sendKeys("Kaki'sbackminnirising");
+		passwd.sendKeys("abcd");
 		
 		
 	}
